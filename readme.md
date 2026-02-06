@@ -14,19 +14,23 @@
 
 Current paradigms for code verification rely heavily on external mechanisms—such as execution-based unit tests or auxiliary LLM judges—which are often labor-intensive or limited by the judging model's own capabilities. This raises a fundamental, yet unexplored question: Can an LLM's functional correctness be assessed purely from its internal computational structure? Our primary objective is to investigate whether the model’s neural dynamics encode internally decodable signals that are predictive of logical validity during code generation. Inspired by mechanistic interpretability, we propose to treat code verification as a mechanistic diagnostic task, mapping the model's explicit algorithmic trajectory into line-level attribution graphs. By decomposing complex residual flows, we aim to identify the structural signatures that distinguish sound reasoning from logical failure within the model’s internal circuits. Analysis across Python, C++, and Java confirms that intrinsic correctness signals are robust across diverse syntaxes. Topological features from these internal graphs predict correctness more reliably than surface heuristics and enable targeted causal interventions to fix erroneous logic. These findings establish internal introspection as a decodable property for verifying generated code.
 
+<p align="center">
+    <img src="./assets/codecircuit.png" width="80%">
+</p>
+
+
 # Requirements
 
 ```
-Our code is based on circuit_tracer. So you just need install requirements based on Circuit_tracer
+Our code is based on [circuit_tracer](https://github.com/safety-research/circuit-tracer). So you just need install requirements based on [circuit_tracer](https://github.com/safety-research/circuit-tracer)
 ```
 
 # Run CodeCircuit 🚀
-
-```
 Our codebase is clearly structured. Under the `data/` directory, the scripts can be executed sequentially in order from 0 to 5.
-
-If you have any questiones. Feel free to reach out!
 ```
+python 0_generate_response.py  # generate code from LLMs
+```
+Simply run the scripts in order using `python x.py`.
 
 # Citation
 
@@ -43,3 +47,4 @@ primaryClass={cs.AI},
 url={https://arxiv.org/abs/2601.15661},
 }
 ```
+If you have any questiones. Feel free to reach out!
