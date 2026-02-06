@@ -1,3 +1,6 @@
-demos/graphs
-demos/graph_files
-demos/img
+demos
+data/cpp_graph
+data/graph
+data/java_graph
+data/*.jsonl
+.cache

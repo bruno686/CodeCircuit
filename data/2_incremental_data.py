@@ -1,7 +1,14 @@
 import json
 
-input_file = "gemma_mbpp_correctness.jsonl"
-output_file = "gemma_mbpp_incremental.jsonl"
+# input_file = "gemma_mbpp_correctness.jsonl"
+# output_file = "gemma_mbpp_incremental.jsonl"
+
+# input_file = "gemma_mbpp_cpp_correctness.jsonl"
+# output_file = "gemma_mbpp_cpp_incremental.jsonl"
+
+input_file = "gemma_mbpp_java_correctness.jsonl"
+output_file = "gemma_mbpp_java_incremental.jsonl"
+
 
 def load_responses(path):
     responses = []
@@ -40,5 +47,3 @@ if __name__ == "__main__":
     incremental_records = generate_incremental_records(responses)
     save_records(incremental_records, output_file)
     print(f"Generated {len(incremental_records)} incremental records and saved to {output_file}")
-
-
