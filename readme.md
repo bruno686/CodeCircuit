@@ -21,9 +21,9 @@ Current paradigms for code verification rely heavily on external mechanisms—su
 
 # Requirements
 
-```
-Our code is based on [circuit_tracer](https://github.com/safety-research/circuit-tracer). So you just need install requirements based on [circuit_tracer](https://github.com/safety-research/circuit-tracer)
-```
+
+Our code is based on [circuit_tracer](https://github.com/safety-research/circuit-tracer). So you just need to install requirements based on [circuit_tracer](https://github.com/safety-research/circuit-tracer). And some extracted feature functions are similar to [CRV](https://github.com/facebookresearch/CRV/blob/main/features/feature_extraction.py)
+
 
 # Run CodeCircuit 🚀
 Our codebase is clearly structured. Under the `data/` directory, the scripts can be executed sequentially in order from 0 to 5.
