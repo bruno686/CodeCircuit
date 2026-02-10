@@ -32,6 +32,9 @@ python 0_generate_response.py  # generate code from LLMs
 ```
 Simply run the scripts in order using `python x.py`.
 
+# Baselines
+To help you reproduce our results more conveniently, here is the repository for the baseline: [Fair-mir](https://github.com/ncancedda/Chain-of-Embedding/tree/fair-mir).
+
 # Citation
 
 If you find our works helpful, please cite
