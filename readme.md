@@ -37,14 +37,14 @@ Simply run the scripts in order using `python x.py`.
 If you find our works helpful, please cite
 
 ```bibtex
-@misc{he2025codecircuit,
-title={CodeCircuit: Toward Inferring LLM-Generated Code Correctness via Attribution Graphs},
-author={Yicheng He and Zheng Zhao and Zhou Kaiyu and Bryan Dai and Jie Fu and Yonghui Yang},
-year={2026},
-eprint={2602.15661},
-archivePrefix={arXiv},
-primaryClass={cs.AI},
-url={https://arxiv.org/abs/2601.15661},
+@misc{he2026codecircuit,
+      title={CodeCircuit: Toward Inferring LLM-Generated Code Correctness via Attribution Graphs}, 
+      author={Yicheng He and Zheng Zhao and Zhou Kaiyu and Bryan Dai and Jie Fu and Yonghui Yang},
+      year={2026},
+      eprint={2602.07080},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2602.07080}, 
 }
 ```
 If you have any questiones. Feel free to reach out!
